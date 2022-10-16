@@ -1,4 +1,4 @@
-# проект для дз geek brains
+# gb_django
 Django
 Django, have you always been alone?
 Django
