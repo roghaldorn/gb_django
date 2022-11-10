@@ -1,5 +1,7 @@
 from django.views.generic import TemplateView
 from datetime import datetime
+from mainapp import models
+from django.shortcuts import get_object_or_404
 
 
 class MainPageView(TemplateView):
@@ -11,18 +13,36 @@ class NewsPageView(TemplateView):
 
     def get_context_data(self, **kwargs):
         context_data = super().get_context_data(**kwargs)
-        page = self.request.GET.get('page', '')
-        context_data['news_title'] = "Контекстный заголовок для страницы {}".format(page)
-        context_data['news_preview'] = 'Контекстное предварительное описание {}'.format(page)
-        context_data['range'] = range(1, 6)
-        context_data['page'] = page
-        context_data['datetime_obj'] = datetime.now()
+        context_data['object_list'] = models.News.objects.filter(deleted=False)
+        context_data['len_of_data'] = len(context_data)
         return context_data
 
+
+class NewsDetail(TemplateView):
+    template_name = 'mainapp/news_detail.html'
+
+    def get_context_data(self, **kwargs):
+        context_data = super().get_context_data(**kwargs)
+        context_data['object'] = get_object_or_404(models.News, pk=self.kwargs.get('pk'))
+        return context_data
 
 
 class CoursesPageView(TemplateView):
     template_name = 'mainapp/courses_list.html'
+
+    def get_context_data(self, **kwargs):
+        context_data = super().get_context_data(**kwargs)
+        context_data['object_list'] = models.Course.objects.filter(deleted=False)
+        return context_data
+
+
+class CoursesDetail(TemplateView):
+    template_name = 'mainapp/course_detail.html'
+
+    def get_context_data(self, **kwargs):
+        context_data = super().get_context_data(**kwargs)
+        context_data['object'] = get_object_or_404(models.Course, pk=self.kwargs.get('pk'))
+        return context_data
 
 
 class ContractsPageView(TemplateView):

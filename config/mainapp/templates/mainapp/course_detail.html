@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="row">
+
+  <div class="col-lg-8">
+    <div class="card my-2">
+      <div class="card-body">
+        <h5 class="card-title">{{ object.title }}</h5>
+         <img src="{{object.img_source}}" class="card-img-top" alt="...">
+        <p class="card-text">{{ object.description }}</p>
+          <p class="card-text">Стоимость курса: {{ object.cost }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
