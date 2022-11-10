@@ -6,14 +6,16 @@
 <div class="row">
 
   <div class="col-lg-8">
-
-    {% for i in double_range %}
+  {% if len_of_data < 3 %}
+      <strong>Новостей пока нет</strong>
+  {% endif %}
+    {% for news_item in object_list %}
     <div class="card my-2">
       <div class="card-body">
-        <h5 class="card-title">{{ news_title }}</h5>
-        <h6 class="card-subtitle mb-2 text-muted">{{ datetime_obj|date:"Y-m-d h:i:s" }}</h6>
-        <p class="card-text">{{ news_preview }}</p>
-        <a href="#" class="card-link">Подробнее</a>
+        <h5 class="card-title">{{ news_item.title }}</h5>
+        <h6 class="card-subtitle mb-2 text-muted">{{ news_item.created_at|date:"Y-m-d h:i:s" }}</h6>
+        <p class="card-text">{{ news_item.preambule }}</p>
+        <a href="{% url 'mainapp:news_detail' news_item.pk %}" class="card-link">Подробнее</a>
       </div>
     </div>
     {% endfor %}
