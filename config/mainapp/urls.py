@@ -6,7 +6,7 @@ from mainapp.apps import MainappConfig
 app_name = MainappConfig.name
 
 urlpatterns =[
-    path('', views.MainPageView.as_view()),
+    path('', views.MainPageView.as_view(), name='index'),
     path('news/', views.NewsPageView.as_view()),
     path('news/<pk>/', views.NewsDetail.as_view(), name='news_detail'),
     path('courses/', views.CoursesPageView.as_view()),
