@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% load static markdownify %}
+{% block content %}
+    <div class="col-lg-8">
+
+        <div class="card my-2">
+            <div class="card-body">
+                <h5 class="card-title">{{ news_object.title }}</h5>
+                <h6 class="card-subtitle mb-2 text-muted">{{ news_object.created|date:'Y-m-d h:i:s' }}</h6>
+                <p class="card-text">{{ news_object.preamble }}</p>
+                {% if news_object.as_markdown %}
+                    <p class="card-text">{{ news_object.body|markdownify }}</p>
+                {% else %}
+                    <p class="card-text">{{ news_object.body|markdownify }}</p>
+                {% endif %}
+                <p class="card-text">Текущая страница: python{{ request.resolver_match.view_name }}</p>
+            </div>
+        </div>
+
+    </div>
+{% endblock content %}
