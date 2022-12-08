@@ -1,5 +1,6 @@
 ﻿{% extends 'base.html' %}
 {% load pattern_filters %}
+{% load crispy_forms_tags %}
 {% block content %}
 {{ test_data }}
 <p>
@@ -38,6 +39,20 @@
     <li>Email</li>
     <li><strong>geeklab@spb.ru</strong></li>
 </ul>
+
+
+{% if form %}
+<p>
+<h3>Отправить сообщение в техподдержку</h3>
+<form method="post">
+    {% csrf_token %}
+    {{ form|crispy }}
+    <button type="submit" class="btn btn-primary btn-block">Отаправить</button>
+</form>
+</p>
+{% endif %}
+
+
 <ul class="list-unstyled">
     <li>Адрес</li>
     <li><strong>территория Петропавловская крепость, 3Ж</strong></li>

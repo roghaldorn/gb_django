@@ -18,6 +18,7 @@ from django.contrib import admin
 from django.urls import path, include
 from django.views.generic import RedirectView
 from django.conf import settings
+import debug_toolbar
 
 urlpatterns = [
     path('', RedirectView.as_view(url='mainapp/')),  # переадресация на mainapp из пустой строки # возвращает 302
@@ -28,4 +29,5 @@ urlpatterns = [
 
 # если в режиме отладки раздаем статику
 if settings.DEBUG:
+    urlpatterns.append(path("__debug__/", include(debug_toolbar.urls)))
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

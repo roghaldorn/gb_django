@@ -1,16 +1,28 @@
 from datetime import datetime
+import logging
 
-from django.contrib.auth.mixins import PermissionRequiredMixin, LoginRequiredMixin
-from django.http import HttpResponse, JsonResponse
+from django.contrib.auth.mixins import PermissionRequiredMixin, LoginRequiredMixin, UserPassesTestMixin
+from django.contrib.sessions.backends import cache
+from django.http import HttpResponse, JsonResponse, FileResponse
 from django.shortcuts import render, get_object_or_404
 from django.template.loader import render_to_string
 from django.urls import reverse_lazy
 from django.views.generic import View, TemplateView, ListView, CreateView, DetailView, UpdateView, DeleteView
+
+from Braniac import settings
 from mainapp import models as mainapp_models
 from mainapp import forms as mainapp_forms
 
+from django.contrib import messages
+from django.http.response import HttpResponseRedirect
+from django.utils.translation import gettext_lazy as _
+from mainapp import tasks as mainapp_tasks
+
+logger = logging.getLogger(__name__)  # создаем экземпляр логгера
+
 
 class MainPageView(TemplateView):
+    logger.debug('main_page_log')
     template_name = 'mainapp/index.html'
 
 
@@ -100,7 +112,7 @@ class CourseDetailView(TemplateView):
     def get_context_data(self, pk=None, **kwargs):
         context = super(CourseDetailView, self).get_context_data(**kwargs)
         context["course_object"] = get_object_or_404(
-            mainapp_models.Courses, pk=pk
+            mainapp_models.Course, pk=pk
         )
         context["lessons"] = mainapp_models.Lesson.objects.filter(
             course=context["course_object"]
@@ -134,7 +146,47 @@ class CourseFeedbackFormProcessView(LoginRequiredMixin, CreateView):
 
 
 class ContactsPageView(TemplateView):
-    template_name = 'mainapp/contacts.html'
+    template_name = "mainapp/contacts.html"
+
+    def get_context_data(self, **kwargs):
+
+        context = super(ContactsPageView, self).get_context_data(**kwargs)
+        if self.request.user.is_authenticated:
+            context["form"] = mainapp_forms.MailFeedbackForm(
+                user=self.request.user
+            )
+        return context
+
+    def post(self, *args, **kwargs):
+
+        if self.request.user.is_authenticated:
+            cache_lock_flag = cache.get(
+                f"mail_feedback_lock_{self.request.user.pk}"
+            )
+
+        if not cache_lock_flag:
+            cache.set(
+                f"mail_feedback_lock_{self.request.user.pk}",
+                "lock",
+                timeout=300,
+            )
+            messages.add_message(
+                self.request, messages.INFO, _("Message sended")
+            )
+            mainapp_tasks.send_feedback_mail.delay(
+                {
+                    "user_id": self.request.POST.get("user_id"),
+                    "message": self.request.POST.get("message"),
+                }
+            )
+        else:
+            messages.add_message(
+                self.request,
+                messages.WARNING,
+                _("You can send only one message per 5 minutes"),
+            )
+
+        return HttpResponseRedirect(reverse_lazy("mainapp:contacts"))
 
 
 class DocSitePageView(TemplateView):
@@ -143,3 +195,26 @@ class DocSitePageView(TemplateView):
 
 class LoginPageView(TemplateView):
     template_name = 'mainapp/login.html'
+
+
+class LogView(TemplateView):
+    template_name = 'mainapp/log_view.html'
+
+    def get_context_data(self, **kwargs):
+        context = super(LogView, self).get_context_data(**kwargs)
+        log_slice = []
+        with open(settings.LOG_FILE, 'r') as log_file:
+            for line_index, line in enumerate(log_file):
+                if line_index == 1000:
+                    break
+                log_slice.insert(0, line)
+            context['log'] = ''.join(log_slice)
+        return context
+
+
+class LogDownloadView(UserPassesTestMixin, View):  # UserPassesTestMixin - проверка привилегий
+    def test_func(self):
+        return self.request.user.is_superuser
+
+    def get(self, *args, **kwargs):
+        return FileResponse(open(settings.LOG_FILE, 'rb'))

@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/3.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
-
+import os
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'markdownify.apps.MarkdownifyConfig',
     'crispy_forms',
+    'debug_toolbar',
     'mainapp',
     'authapp',
 ]
@@ -49,6 +50,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'debug_toolbar.middleware.DebugToolbarMiddleware',
+
 ]
 
 ROOT_URLCONF = 'Braniac.urls'
@@ -125,10 +128,10 @@ STATIC_URL = '/static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 STATICFILES_DIRS = [
-    BASE_DIR / 'static',
+    os.path.join(BASE_DIR, 'static').replace("\\", "/"),
 ]
 
-STATIC_URL = '/static/'
+STATIC_URL = 'static/'
 
 MEDIA_URL = '/media/'
 
@@ -143,3 +146,70 @@ LOGOUT_REDIRECT_URL = '/'
 MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
 
 CRISPY_TEMPLATE_PACK = "bootstrap4"  # указываем какой css слить используем
+
+LOG_FILE = BASE_DIR / 'log' / 'main_log.log'  # файл для логов
+
+LOGGING = {
+    'version': 1,  # версия конфигуратора, если 1 - используется словарь
+    'disable_existing_loggers': False,  # отключать ли остальные логгеры
+    'formatters': {  # как и в каком формате выводить лог
+        'console': {  # имя форматтера
+            'format': '[%(asctime)s] %(levelname)s %(name)s {%(thread)d} %(message)s'
+            # порядок вывода, время/уровень/имя модуля/строка/сообщение
+        },
+    },
+    'handlers': {  # обработчик/куда выводить лог
+        'file': {
+            'level': 'DEBUG',
+            'class': 'logging.FileHandler',
+            'filename': LOG_FILE,
+            'formatter': 'console'
+        },
+        'console': {  # имя обработчика
+            'class': 'logging.StreamHandler', 'formatter': 'console'  # класс вывода потока сообщений/формат потока
+        },
+    },
+
+    'loggers': {  # логгер реализует настройку взаимодействия форматтера и обработчика #TODO
+        'django': {'level': 'INFO', 'handlers': ['file']},  # видимо откуда и куда идет лог, тут сама django
+        'mainapp': {  # с майнапп сообщения будут выводится только в файл, в консоль пойдет заглушка.
+            'level': 'DEBUG',
+            'handlers': ['console']
+        }
+    }
+
+}
+
+ALLOWED_HOSTS = ['*']
+
+INTERNAL_IPS = ['127.0.0.1', '192.168.1.100']
+
+# 6379
+CACHES = {
+    'default': {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://localhost:6379",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        },
+    },
+}
+
+CELERY_BROKER_URL = 'redis://localhost:6379'  # указание на брокер
+CELERY_RESULT_BACKEND = 'redis://localhost:6379'  # указание бекенда для результатов выполнения задач
+
+# Read about sending email:
+# https://docs.djangoproject.com/en/3.2/topics/email/
+# Full list of email settings:
+# https://docs.djangoproject.com/en/3.2/ref/settings/#email
+# EMAIL_HOST = "localhost"
+# EMAIL_PORT = "25"
+# For debugging: python -m smtpd -n -c DebuggingServer localhost:25
+# EMAIL_HOST_USER = "django@geekshop.local"
+# EMAIL_HOST_PASSWORD = "geekshop"
+# EMAIL_USE_SSL = False
+# If server support TLS:
+# EMAIL_USE_TLS = True
+# Email as files for debug
+EMAIL_BACKEND = "django.core.mail.backends.filebased.EmailBackend"
+EMAIL_FILE_PATH = "log/email-messages/"

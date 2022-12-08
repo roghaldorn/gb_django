@@ -1,0 +1,429 @@
+2022-12-07 20:33:06,087 INFO basehttp 10520 10320 "GET /mainapp/ HTTP/1.1" 200 12751
+2022-12-07 20:33:30,039 INFO autoreload 10520 5580 E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\Braniac\settings.py changed, reloading.
+[2022-12-07 20:33:31,372] INFO autoreload 9920 892 Watching for file changes with StatReloader
+[2022-12-07 20:33:33,341] INFO basehttp 9920 2604 "GET /mainapp/ HTTP/1.1" 200 12751
+[2022-12-07 20:33:44,054] INFO basehttp 9920 2604 "GET /mainapp/ HTTP/1.1" 200 12751
+[2022-12-07 20:34:56,681] INFO autoreload 9920 892 E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\Braniac\settings.py changed, reloading.
+[2022-12-07 20:35:34,376] INFO autoreload {4420} Watching for file changes with StatReloader
+[2022-12-07 20:35:39,006] INFO basehttp {1904} "GET /mainapp/ HTTP/1.1" 200 12751
+[2022-12-07 20:35:41,900] INFO basehttp {1904} "GET /mainapp/ HTTP/1.1" 200 12751
+[2022-12-07 20:36:10,560] INFO autoreload {4420} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\Braniac\settings.py changed, reloading.
+[2022-12-07 20:36:11,874] INFO django.utils.autoreload {12048} Watching for file changes with StatReloader
+[2022-12-07 20:36:17,087] INFO django.server {6908} "GET /mainapp/ HTTP/1.1" 200 12751
+[2022-12-07 20:37:56,517] INFO django.utils.autoreload {12048} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\mainapp\views.py changed, reloading.
+[2022-12-07 20:37:57,844] INFO django.utils.autoreload {1192} Watching for file changes with StatReloader
+[2022-12-07 20:38:03,166] INFO django.server {6756} "GET /mainapp/ HTTP/1.1" 200 12751
+[2022-12-07 20:38:06,955] INFO django.server {6756} "GET /mainapp/ HTTP/1.1" 200 12751
+[2022-12-07 20:39:35,263] INFO django.utils.autoreload {1192} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\mainapp\views.py changed, reloading.
+[2022-12-07 20:39:36,585] INFO django.utils.autoreload {13032} Watching for file changes with StatReloader
+[2022-12-07 20:39:43,323] INFO django.server {13228} "GET /mainapp/courses/ HTTP/1.1" 200 8312
+[2022-12-07 20:39:44,706] INFO django.server {13228} "GET /mainapp/news/ HTTP/1.1" 200 9473
+[2022-12-07 20:40:13,997] INFO django.utils.autoreload {13032} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\mainapp\views.py changed, reloading.
+[2022-12-07 20:40:15,307] INFO django.utils.autoreload {8628} Watching for file changes with StatReloader
+[2022-12-07 20:40:50,018] INFO django.utils.autoreload {8628} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\Braniac\settings.py changed, reloading.
+[2022-12-07 20:40:51,309] INFO django.utils.autoreload {9576} Watching for file changes with StatReloader
+[2022-12-07 20:40:55,686] INFO django.server {12892} "GET /mainapp/news/ HTTP/1.1" 200 9473
+[2022-12-07 20:41:43,333] INFO django.utils.autoreload {9576} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\mainapp\views.py changed, reloading.
+[2022-12-07 20:41:44,618] INFO django.utils.autoreload {2108} Watching for file changes with StatReloader
+[2022-12-07 20:41:46,055] INFO django.server {4468} "GET /mainapp/ HTTP/1.1" 200 12751
+[2022-12-07 20:41:46,072] INFO django.server {4468} "GET /mainapp/ HTTP/1.1" 200 12751
+[2022-12-07 20:41:51,256] INFO django.server {4468} "GET /mainapp/ HTTP/1.1" 200 12751
+[2022-12-07 20:42:12,211] INFO django.utils.autoreload {2108} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\Braniac\settings.py changed, reloading.
+[2022-12-07 20:42:13,622] INFO django.utils.autoreload {3768} Watching for file changes with StatReloader
+[2022-12-07 20:42:17,612] INFO django.server {11372} "GET /mainapp/ HTTP/1.1" 200 12751
+[2022-12-07 20:43:47,338] INFO django.utils.autoreload {3768} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\Braniac\settings.py changed, reloading.
+[2022-12-07 20:43:48,607] INFO django.utils.autoreload {12612} Watching for file changes with StatReloader
+[2022-12-07 20:44:10,574] INFO django.utils.autoreload {12612} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\Braniac\settings.py changed, reloading.
+[2022-12-07 20:44:11,836] INFO django.utils.autoreload {13064} Watching for file changes with StatReloader
+[2022-12-07 20:44:43,259] INFO django.utils.autoreload {13064} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\Braniac\settings.py changed, reloading.
+[2022-12-07 20:44:44,553] DEBUG mainapp.views {8432} main_page_log
+[2022-12-07 20:45:12,179] DEBUG mainapp.views {13116} main_page_log
+[2022-12-07 20:45:51,565] INFO django.utils.autoreload {8528} Watching for file changes with StatReloader
+[2022-12-07 20:45:53,610] INFO django.server {12320} "GET /mainapp/ HTTP/1.1" 200 12751
+[2022-12-07 20:46:08,582] INFO django.server {12320} "GET /mainapp/ HTTP/1.1" 200 12751
+[2022-12-07 20:46:17,565] INFO django.server {12320} "GET /mainapp/ HTTP/1.1" 200 12751
+[2022-12-07 20:46:18,305] INFO django.server {12320} "GET /mainapp/ HTTP/1.1" 200 12751
+[2022-12-07 20:46:35,058] INFO django.utils.autoreload {10132} Watching for file changes with StatReloader
+[2022-12-07 20:46:38,569] INFO django.server {12476} "GET /mainapp/ HTTP/1.1" 200 12751
+[2022-12-07 20:48:32,467] INFO django.utils.autoreload {10132} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\mainapp\views.py changed, reloading.
+[2022-12-07 20:48:33,735] INFO django.utils.autoreload {3436} Watching for file changes with StatReloader
+[2022-12-07 20:48:40,565] INFO django.utils.autoreload {3436} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\mainapp\views.py changed, reloading.
+[2022-12-07 20:48:41,825] INFO django.utils.autoreload {9400} Watching for file changes with StatReloader
+[2022-12-07 20:48:55,305] INFO django.utils.autoreload {9400} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\mainapp\views.py changed, reloading.
+[2022-12-07 20:48:56,596] INFO django.utils.autoreload {12492} Watching for file changes with StatReloader
+[2022-12-07 20:49:06,782] INFO django.utils.autoreload {12492} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\mainapp\views.py changed, reloading.
+[2022-12-07 20:49:08,085] INFO django.utils.autoreload {8528} Watching for file changes with StatReloader
+[2022-12-07 20:49:17,093] INFO django.utils.autoreload {8528} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\mainapp\views.py changed, reloading.
+[2022-12-07 20:49:18,383] INFO django.utils.autoreload {1632} Watching for file changes with StatReloader
+[2022-12-07 20:49:27,425] INFO django.utils.autoreload {1632} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\mainapp\views.py changed, reloading.
+[2022-12-07 20:49:28,753] INFO django.utils.autoreload {13248} Watching for file changes with StatReloader
+[2022-12-07 20:49:34,596] INFO django.utils.autoreload {13248} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\mainapp\views.py changed, reloading.
+[2022-12-07 20:49:35,855] INFO django.utils.autoreload {7404} Watching for file changes with StatReloader
+[2022-12-07 20:49:42,799] INFO django.utils.autoreload {7404} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\mainapp\views.py changed, reloading.
+[2022-12-07 20:49:44,052] INFO django.utils.autoreload {11520} Watching for file changes with StatReloader
+[2022-12-07 20:49:53,258] INFO django.utils.autoreload {11520} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\mainapp\views.py changed, reloading.
+[2022-12-07 20:49:54,526] INFO django.utils.autoreload {10336} Watching for file changes with StatReloader
+[2022-12-07 20:50:00,415] INFO django.utils.autoreload {10336} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\mainapp\views.py changed, reloading.
+[2022-12-07 20:50:01,680] INFO django.utils.autoreload {2408} Watching for file changes with StatReloader
+[2022-12-07 20:50:29,107] INFO django.utils.autoreload {2408} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\mainapp\views.py changed, reloading.
+[2022-12-07 20:50:30,364] INFO django.utils.autoreload {10048} Watching for file changes with StatReloader
+[2022-12-07 20:50:45,908] INFO django.utils.autoreload {10048} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\mainapp\views.py changed, reloading.
+[2022-12-07 20:50:47,178] INFO django.utils.autoreload {11828} Watching for file changes with StatReloader
+[2022-12-07 20:51:20,823] INFO django.utils.autoreload {11828} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\mainapp\views.py changed, reloading.
+[2022-12-07 20:51:22,138] INFO django.utils.autoreload {13212} Watching for file changes with StatReloader
+[2022-12-07 20:51:33,230] INFO django.utils.autoreload {13212} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\mainapp\views.py changed, reloading.
+[2022-12-07 20:51:34,484] INFO django.utils.autoreload {12304} Watching for file changes with StatReloader
+[2022-12-07 20:51:44,556] INFO django.utils.autoreload {12304} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\mainapp\views.py changed, reloading.
+[2022-12-07 20:51:45,813] INFO django.utils.autoreload {8172} Watching for file changes with StatReloader
+[2022-12-07 20:51:57,027] INFO django.utils.autoreload {8172} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\mainapp\views.py changed, reloading.
+[2022-12-07 20:51:58,324] INFO django.utils.autoreload {3728} Watching for file changes with StatReloader
+[2022-12-07 20:52:12,719] INFO django.utils.autoreload {3728} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\mainapp\views.py changed, reloading.
+[2022-12-07 20:52:13,979] INFO django.utils.autoreload {3704} Watching for file changes with StatReloader
+[2022-12-07 20:52:19,903] INFO django.utils.autoreload {3704} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\mainapp\views.py changed, reloading.
+[2022-12-07 20:52:21,161] INFO django.utils.autoreload {6880} Watching for file changes with StatReloader
+[2022-12-07 20:52:30,366] INFO django.utils.autoreload {6880} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\mainapp\views.py changed, reloading.
+[2022-12-07 20:52:31,632] INFO django.utils.autoreload {12584} Watching for file changes with StatReloader
+[2022-12-07 20:52:43,777] INFO django.utils.autoreload {12584} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\mainapp\views.py changed, reloading.
+[2022-12-07 20:52:45,070] INFO django.utils.autoreload {3460} Watching for file changes with StatReloader
+[2022-12-07 20:52:58,420] INFO django.utils.autoreload {3460} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\mainapp\views.py changed, reloading.
+[2022-12-07 20:52:59,684] INFO django.utils.autoreload {4248} Watching for file changes with StatReloader
+[2022-12-07 20:53:18,731] INFO django.utils.autoreload {4248} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\mainapp\views.py changed, reloading.
+[2022-12-07 20:53:20,111] INFO django.utils.autoreload {2192} Watching for file changes with StatReloader
+[2022-12-07 20:53:42,012] INFO django.utils.autoreload {2192} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\mainapp\views.py changed, reloading.
+[2022-12-07 20:53:43,463] INFO django.utils.autoreload {1904} Watching for file changes with StatReloader
+[2022-12-07 20:53:47,211] INFO django.utils.autoreload {1904} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\mainapp\views.py changed, reloading.
+[2022-12-07 20:53:48,512] INFO django.utils.autoreload {6800} Watching for file changes with StatReloader
+[2022-12-07 20:53:55,484] INFO django.utils.autoreload {6800} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\mainapp\views.py changed, reloading.
+[2022-12-07 20:53:56,762] INFO django.utils.autoreload {4252} Watching for file changes with StatReloader
+[2022-12-07 20:54:01,493] INFO django.utils.autoreload {4252} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\mainapp\views.py changed, reloading.
+[2022-12-07 20:54:02,854] INFO django.utils.autoreload {10252} Watching for file changes with StatReloader
+[2022-12-07 20:54:07,733] INFO django.utils.autoreload {10252} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\mainapp\views.py changed, reloading.
+[2022-12-07 20:54:09,013] INFO django.utils.autoreload {12252} Watching for file changes with StatReloader
+[2022-12-07 20:54:21,227] INFO django.utils.autoreload {12252} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\mainapp\views.py changed, reloading.
+[2022-12-07 20:54:22,483] INFO django.utils.autoreload {11848} Watching for file changes with StatReloader
+[2022-12-07 20:54:48,692] INFO django.utils.autoreload {11848} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\mainapp\views.py changed, reloading.
+[2022-12-07 20:54:49,975] INFO django.utils.autoreload {4360} Watching for file changes with StatReloader
+[2022-12-07 20:54:58,989] INFO django.utils.autoreload {4360} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\mainapp\views.py changed, reloading.
+[2022-12-07 20:55:00,288] INFO django.utils.autoreload {2404} Watching for file changes with StatReloader
+[2022-12-07 20:55:06,067] INFO django.utils.autoreload {2404} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\mainapp\views.py changed, reloading.
+[2022-12-07 20:55:07,478] INFO django.utils.autoreload {12796} Watching for file changes with StatReloader
+[2022-12-07 20:55:15,805] INFO django.utils.autoreload {12796} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\mainapp\views.py changed, reloading.
+[2022-12-07 20:55:17,070] INFO django.utils.autoreload {12908} Watching for file changes with StatReloader
+[2022-12-07 20:55:27,161] INFO django.utils.autoreload {12908} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\mainapp\views.py changed, reloading.
+[2022-12-07 20:55:28,434] INFO django.utils.autoreload {9040} Watching for file changes with StatReloader
+[2022-12-07 20:55:37,510] INFO django.utils.autoreload {9040} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\mainapp\views.py changed, reloading.
+[2022-12-07 20:55:38,795] INFO django.utils.autoreload {12868} Watching for file changes with StatReloader
+[2022-12-07 20:55:48,932] INFO django.utils.autoreload {12868} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\mainapp\views.py changed, reloading.
+[2022-12-07 20:55:50,226] INFO django.utils.autoreload {12936} Watching for file changes with StatReloader
+[2022-12-07 20:56:05,901] INFO django.utils.autoreload {12936} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\mainapp\views.py changed, reloading.
+[2022-12-07 20:56:07,319] INFO django.utils.autoreload {2120} Watching for file changes with StatReloader
+[2022-12-07 20:56:24,013] INFO django.utils.autoreload {2120} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\mainapp\views.py changed, reloading.
+[2022-12-07 20:56:25,275] INFO django.utils.autoreload {9200} Watching for file changes with StatReloader
+[2022-12-07 20:56:40,767] INFO django.utils.autoreload {9200} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\mainapp\views.py changed, reloading.
+[2022-12-07 20:56:42,036] INFO django.utils.autoreload {4908} Watching for file changes with StatReloader
+[2022-12-07 20:58:28,366] INFO django.utils.autoreload {4908} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\mainapp\views.py changed, reloading.
+[2022-12-07 20:58:29,658] INFO django.utils.autoreload {12708} Watching for file changes with StatReloader
+[2022-12-07 21:04:56,627] INFO django.utils.autoreload {12708} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\base_templates\includes changed, reloading.
+[2022-12-07 21:04:57,911] INFO django.utils.autoreload {12264} Watching for file changes with StatReloader
+[2022-12-07 21:05:00,067] INFO django.server {9808} "GET /mainapp/ HTTP/1.1" 200 12913
+[2022-12-07 21:05:02,960] INFO django.server {9808} "GET /admin/ HTTP/1.1" 200 8599
+[2022-12-07 21:05:02,996] INFO django.server {12340} "GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+[2022-12-07 21:05:02,998] INFO django.server {13228} "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+[2022-12-07 21:05:03,023] INFO django.server {2724} "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2271
+[2022-12-07 21:05:03,025] INFO django.server {9808} "GET /static/admin/css/base.css HTTP/1.1" 200 19513
+[2022-12-07 21:05:03,032] INFO django.server {9808} "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[2022-12-07 21:05:03,035] INFO django.server {2200} "GET /static/admin/css/responsive.css HTTP/1.1" 200 18545
+[2022-12-07 21:05:03,053] INFO django.server {9808} "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[2022-12-07 21:05:03,053] INFO django.server {2200} "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[2022-12-07 21:05:03,057] INFO django.server {2724} "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+[2022-12-07 21:05:03,139] INFO django.server {2724} "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[2022-12-07 21:05:03,140] INFO django.server {9808} "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[2022-12-07 21:05:03,153] INFO django.server {2200} "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[2022-12-07 21:06:53,259] INFO django.utils.autoreload {12264} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\mainapp\urls.py changed, reloading.
+[2022-12-07 21:06:54,563] INFO django.utils.autoreload {12820} Watching for file changes with StatReloader
+[2022-12-07 21:07:02,497] INFO django.server {6540} "GET /mainapp/ HTTP/1.1" 200 12919
+[2022-12-07 21:07:04,808] ERROR django.request {6540} Internal Server Error: /mainapp/log/
+Traceback (most recent call last):
+  File "E:\Geek_Brains\2.1.Django\project\gb_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\Geek_Brains\2.1.Django\project\gb_django\venv\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "E:\Geek_Brains\2.1.Django\project\gb_django\venv\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "E:\Geek_Brains\2.1.Django\project\gb_django\venv\lib\site-packages\django\template\response.py", line 83, in rendered_content
+    return template.render(context, self._request)
+  File "E:\Geek_Brains\2.1.Django\project\gb_django\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\Geek_Brains\2.1.Django\project\gb_django\venv\lib\site-packages\django\template\base.py", line 170, in render
+    return self._render(context)
+  File "E:\Geek_Brains\2.1.Django\project\gb_django\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "E:\Geek_Brains\2.1.Django\project\gb_django\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "E:\Geek_Brains\2.1.Django\project\gb_django\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "E:\Geek_Brains\2.1.Django\project\gb_django\venv\lib\site-packages\django\template\loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "E:\Geek_Brains\2.1.Django\project\gb_django\venv\lib\site-packages\django\template\base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "E:\Geek_Brains\2.1.Django\project\gb_django\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "E:\Geek_Brains\2.1.Django\project\gb_django\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "E:\Geek_Brains\2.1.Django\project\gb_django\venv\lib\site-packages\django\template\loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "E:\Geek_Brains\2.1.Django\project\gb_django\venv\lib\site-packages\django\template\base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "E:\Geek_Brains\2.1.Django\project\gb_django\venv\lib\site-packages\django\template\base.py", line 905, in render_annotated
+    return self.render(context)
+  File "E:\Geek_Brains\2.1.Django\project\gb_django\venv\lib\site-packages\django\template\defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "E:\Geek_Brains\2.1.Django\project\gb_django\venv\lib\site-packages\django\urls\base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "E:\Geek_Brains\2.1.Django\project\gb_django\venv\lib\site-packages\django\urls\resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'log_download' not found. 'log_download' is not a valid view function or pattern name.
+[2022-12-07 21:07:04,812] ERROR django.server {6540} "GET /mainapp/log/ HTTP/1.1" 500 212963
+[2022-12-07 21:08:15,737] INFO django.utils.autoreload {12820} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\mainapp\urls.py changed, reloading.
+[2022-12-07 21:08:17,069] INFO django.utils.autoreload {13028} Watching for file changes with StatReloader
+[2022-12-07 21:08:17,565] INFO django.server {6200} "GET /mainapp/log/ HTTP/1.1" 200 28637
+[2022-12-07 21:08:28,788] INFO django.server {6200} "GET /mainapp/log/ HTTP/1.1" 200 28738
+[2022-12-07 21:08:30,915] INFO django.server {6200} "GET /mainapp/log/ HTTP/1.1" 200 28839
+[2022-12-07 21:08:31,609] INFO django.server {6200} "GET /mainapp/log/ HTTP/1.1" 200 28940
+[2022-12-07 21:08:34,262] INFO django.server {6200} "GET /mainapp/log/download HTTP/1.1" 200 21623
+[2022-12-07 21:08:42,920] INFO django.server {6200} "GET /authapp/logout/ HTTP/1.1" 302 0
+[2022-12-07 21:08:42,924] INFO django.server {6200} "GET / HTTP/1.1" 302 0
+[2022-12-07 21:08:43,059] INFO django.server {6200} "GET /mainapp/ HTTP/1.1" 200 13042
+[2022-12-07 21:08:45,460] INFO django.server {6200} "GET /authapp/login/ HTTP/1.1" 200 3352
+[2022-12-07 21:08:47,393] INFO django.server {6200} "POST /authapp/login/ HTTP/1.1" 302 0
+[2022-12-07 21:08:47,397] INFO django.server {6200} "GET / HTTP/1.1" 302 0
+[2022-12-07 21:08:47,542] INFO django.server {6200} "GET /mainapp/ HTTP/1.1" 200 13839
+[2022-12-07 21:17:43,994] INFO django.utils.autoreload {13028} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\Braniac\settings.py changed, reloading.
+[2022-12-07 21:17:45,276] INFO django.utils.autoreload {13232} Watching for file changes with StatReloader
+[2022-12-07 21:17:50,159] INFO django.utils.autoreload {13232} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\Braniac\settings.py changed, reloading.
+[2022-12-07 21:17:51,419] INFO django.utils.autoreload {8524} Watching for file changes with StatReloader
+[2022-12-07 21:17:59,497] INFO django.utils.autoreload {8524} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\Braniac\settings.py changed, reloading.
+[2022-12-07 21:18:00,763] INFO django.utils.autoreload {11080} Watching for file changes with StatReloader
+[2022-12-07 21:18:05,555] INFO django.utils.autoreload {11080} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\Braniac\settings.py changed, reloading.
+[2022-12-07 21:18:06,817] INFO django.utils.autoreload {2416} Watching for file changes with StatReloader
+[2022-12-07 21:19:48,408] INFO django.utils.autoreload {2416} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\Braniac\settings.py changed, reloading.
+[2022-12-07 21:22:15,497] INFO django.utils.autoreload {11320} Watching for file changes with StatReloader
+[2022-12-07 21:26:15,851] INFO django.utils.autoreload {11320} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\Braniac\settings.py changed, reloading.
+[2022-12-07 21:26:17,103] INFO django.utils.autoreload {6360} Watching for file changes with StatReloader
+[2022-12-07 21:27:04,458] INFO django.utils.autoreload {6360} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\Braniac\settings.py changed, reloading.
+[2022-12-07 21:27:05,748] INFO django.utils.autoreload {12744} Watching for file changes with StatReloader
+[2022-12-07 21:30:22,360] INFO django.utils.autoreload {4192} Watching for file changes with StatReloader
+[2022-12-07 21:30:25,040] INFO django.server {2224} "GET /mainapp/ HTTP/1.1" 200 12919
+[2022-12-07 21:31:17,196] INFO django.utils.autoreload {4192} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\Braniac\settings.py changed, reloading.
+[2022-12-07 21:34:46,032] INFO django.utils.autoreload {13168} Watching for file changes with StatReloader
+[2022-12-07 21:34:49,696] INFO django.server {5464} "GET /mainapp/ HTTP/1.1" 200 22610
+[2022-12-07 21:34:49,729] INFO django.server {5464} "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12378
+[2022-12-07 21:34:49,729] INFO django.server {11876} "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13404
+[2022-12-07 21:34:49,842] INFO django.server {11876} "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+[2022-12-07 21:34:51,625] INFO django.server {11876} "GET /mainapp/news/ HTTP/1.1" 200 19340
+[2022-12-07 21:34:52,629] INFO django.server {11876} "GET /mainapp/courses/ HTTP/1.1" 200 18188
+[2022-12-07 21:34:54,802] INFO django.server {11876} "GET /mainapp/news/ HTTP/1.1" 200 19340
+[2022-12-07 21:34:55,401] INFO django.server {11876} "GET /mainapp/ HTTP/1.1" 200 22609
+[2022-12-07 21:34:57,107] INFO django.server {11876} "GET /mainapp/news/ HTTP/1.1" 200 19340
+[2022-12-07 21:34:57,912] INFO django.server {11876} "GET /mainapp/ HTTP/1.1" 200 22609
+[2022-12-07 21:38:04,427] INFO django.utils.autoreload {13168} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\Braniac\settings.py changed, reloading.
+[2022-12-07 21:38:05,592] INFO django.utils.autoreload {2588} Watching for file changes with StatReloader
+[2022-12-07 21:38:07,372] INFO django.server {5144} "GET /mainapp/ HTTP/1.1" 200 22610
+[2022-12-07 21:38:07,413] INFO django.server {5144} "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+[2022-12-07 21:38:07,431] INFO django.server {5144} "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+[2022-12-07 21:38:07,560] INFO django.server {5144} "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+[2022-12-07 21:38:08,816] INFO django.server {5144} "GET /mainapp/ HTTP/1.1" 200 22609
+[2022-12-07 21:39:01,008] WARNING django.request {5144} Not Found: /__debug__
+[2022-12-07 21:39:01,009] WARNING django.server {5144} "GET /__debug__ HTTP/1.1" 404 12316
+[2022-12-07 21:39:01,044] INFO django.server {5144} "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+[2022-12-07 21:39:01,046] INFO django.server {9260} "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+[2022-12-07 21:39:01,048] INFO django.server {12264} "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+[2022-12-07 21:39:08,428] WARNING django.request {12264} Not Found: /__debug__/
+[2022-12-07 21:39:08,429] WARNING django.server {12264} "GET /__debug__/ HTTP/1.1" 404 13557
+[2022-12-07 21:39:11,299] INFO django.server {12264} "GET / HTTP/1.1" 302 0
+[2022-12-07 21:39:11,351] INFO django.server {12264} "GET /mainapp/ HTTP/1.1" 200 22609
+[2022-12-07 21:40:24,653] INFO django.utils.autoreload {2588} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\Braniac\settings.py changed, reloading.
+[2022-12-07 21:40:25,748] INFO django.utils.autoreload {4844} Watching for file changes with StatReloader
+[2022-12-07 21:41:33,692] INFO django.utils.autoreload {2796} Watching for file changes with StatReloader
+[2022-12-07 21:42:47,790] INFO django.utils.autoreload {6276} Watching for file changes with StatReloader
+[2022-12-07 21:45:45,262] INFO django.utils.autoreload {6276} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\Braniac\settings.py changed, reloading.
+[2022-12-07 21:45:46,283] INFO django.utils.autoreload {2168} Watching for file changes with StatReloader
+[2022-12-07 21:45:50,242] INFO django.utils.autoreload {4900} Watching for file changes with StatReloader
+[2022-12-07 21:46:00,885] INFO django.server {13188} "GET /mainapp/ HTTP/1.1" 200 22610
+[2022-12-07 21:46:00,931] INFO django.server {13188} "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+[2022-12-07 21:46:00,950] INFO django.server {13188} "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+[2022-12-07 21:46:01,054] INFO django.server {13188} "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+[2022-12-07 21:47:43,592] INFO django.utils.autoreload {4900} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\Braniac\settings.py changed, reloading.
+[2022-12-07 21:47:44,653] INFO django.utils.autoreload {6584} Watching for file changes with StatReloader
+[2022-12-07 21:47:47,614] INFO django.server {4084} "GET /mainapp/ HTTP/1.1" 200 22610
+[2022-12-07 21:47:47,813] INFO django.server {4084} "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+[2022-12-07 21:47:47,833] INFO django.server {4084} "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+[2022-12-07 21:47:47,938] INFO django.server {4084} "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+[2022-12-07 21:47:49,066] INFO django.server {4084} "GET /mainapp/news/ HTTP/1.1" 200 19340
+[2022-12-07 21:47:50,317] INFO django.server {4084} "GET /mainapp/courses/ HTTP/1.1" 200 18188
+[2022-12-07 21:47:53,859] INFO django.server {4084} "GET /mainapp/contacts/ HTTP/1.1" 200 22178
+[2022-12-07 21:47:54,937] INFO django.server {4084} "GET /mainapp/news/ HTTP/1.1" 200 19340
+[2022-12-07 21:48:07,740] INFO django.server {4084} "GET /mainapp/ HTTP/1.1" 200 22609
+[2022-12-07 21:48:14,059] INFO django.utils.autoreload {9204} Watching for file changes with StatReloader
+[2022-12-07 21:49:49,954] INFO django.utils.autoreload {9204} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\Braniac\settings.py changed, reloading.
+[2022-12-07 21:49:51,030] INFO django.utils.autoreload {5964} Watching for file changes with StatReloader
+[2022-12-07 21:49:53,885] INFO django.server {2212} "GET /mainapp/ HTTP/1.1" 200 22610
+[2022-12-07 21:49:53,905] INFO django.server {2212} "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+[2022-12-07 21:49:53,908] INFO django.server {2212} "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+[2022-12-07 21:49:53,988] INFO django.server {2212} "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+[2022-12-07 21:51:58,176] INFO django.utils.autoreload {5964} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\Braniac\settings.py changed, reloading.
+[2022-12-07 21:51:59,279] INFO django.utils.autoreload {12444} Watching for file changes with StatReloader
+[2022-12-07 21:52:09,572] INFO django.utils.autoreload {12444} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\Braniac\settings.py changed, reloading.
+[2022-12-07 21:53:14,278] INFO django.utils.autoreload {12040} Watching for file changes with StatReloader
+[2022-12-07 21:53:53,572] INFO django.utils.autoreload {12040} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\Braniac\settings.py changed, reloading.
+[2022-12-07 21:53:57,481] INFO django.utils.autoreload {13048} Watching for file changes with StatReloader
+[2022-12-07 21:54:28,478] INFO django.utils.autoreload {1916} Watching for file changes with StatReloader
+[2022-12-07 21:54:37,969] INFO django.server {2032} "GET /mainapp/ HTTP/1.1" 200 22610
+[2022-12-07 21:54:37,989] INFO django.server {2032} "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+[2022-12-07 21:54:38,001] INFO django.server {2032} "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+[2022-12-07 21:54:38,075] INFO django.server {2032} "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+[2022-12-07 21:54:38,984] INFO django.server {2032} "GET /mainapp/ HTTP/1.1" 200 22609
+[2022-12-07 21:56:53,648] INFO django.utils.autoreload {3176} Watching for file changes with StatReloader
+[2022-12-07 21:58:11,759] INFO django.utils.autoreload {3176} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\mainapp\urls.py changed, reloading.
+[2022-12-07 21:58:12,817] INFO django.utils.autoreload {1292} Watching for file changes with StatReloader
+[2022-12-07 21:58:56,391] INFO django.utils.autoreload {1292} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\mainapp\urls.py changed, reloading.
+[2022-12-07 21:58:57,477] INFO django.utils.autoreload {10872} Watching for file changes with StatReloader
+[2022-12-07 21:59:03,908] INFO django.server {10088} "GET /mainapp/ HTTP/1.1" 200 22610
+[2022-12-07 21:59:03,931] INFO django.server {10088} "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+[2022-12-07 21:59:03,937] INFO django.server {10088} "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+[2022-12-07 21:59:04,068] INFO django.server {10088} "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+[2022-12-07 22:00:05,129] INFO django.utils.autoreload {10872} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\mainapp\urls.py changed, reloading.
+[2022-12-07 22:00:06,187] INFO django.utils.autoreload {12448} Watching for file changes with StatReloader
+[2022-12-07 22:00:13,245] INFO django.utils.autoreload {12448} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\mainapp\urls.py changed, reloading.
+[2022-12-07 22:00:14,290] INFO django.utils.autoreload {12920} Watching for file changes with StatReloader
+[2022-12-07 22:00:45,430] INFO django.server {13060} "GET /mainapp/news/ HTTP/1.1" 200 19341
+[2022-12-07 22:01:32,747] INFO django.server {13060} "GET /mainapp/courses/ HTTP/1.1" 200 18188
+[2022-12-07 22:02:13,275] INFO django.server {13060} "GET /mainapp/courses/ HTTP/1.1" 200 18188
+[2022-12-07 22:02:13,295] INFO django.server {13060} "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+[2022-12-07 22:02:13,306] INFO django.server {13060} "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+[2022-12-07 22:02:13,373] INFO django.server {13060} "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+[2022-12-07 22:02:19,969] INFO django.server {13060} "GET /mainapp/courses/1 HTTP/1.1" 200 21822
+[2022-12-07 22:02:20,002] WARNING django.server {3404} "GET /static/img/no_image.svg HTTP/1.1" 404 1807
+[2022-12-07 22:02:20,002] WARNING django.server {13060} "GET /static/ HTTP/1.1" 404 1767
+[2022-12-07 22:02:30,064] INFO django.server {3376} "GET /mainapp/courses/2 HTTP/1.1" 200 21048
+[2022-12-07 22:02:30,098] WARNING django.server {3376} "GET /static/ HTTP/1.1" 404 1767
+[2022-12-07 22:04:15,102] INFO django.server {3940} "GET /mainapp/courses/ HTTP/1.1" 200 18198
+[2022-12-07 22:04:15,894] INFO django.server {3940} "GET /mainapp/courses/ HTTP/1.1" 200 18197
+[2022-12-07 22:04:16,378] INFO django.server {3940} "GET /mainapp/courses/ HTTP/1.1" 200 18197
+[2022-12-07 22:04:17,388] INFO django.server {3940} "GET /mainapp/courses/2 HTTP/1.1" 200 21047
+[2022-12-07 22:04:17,421] WARNING django.server {3940} "GET /static/ HTTP/1.1" 404 1767
+[2022-12-07 22:04:19,452] INFO django.server {12820} "GET /mainapp/ HTTP/1.1" 200 22609
+[2022-12-07 22:04:20,722] INFO django.server {12820} "GET /mainapp/courses/ HTTP/1.1" 200 18197
+[2022-12-07 22:04:21,067] INFO django.server {12820} "GET /mainapp/courses/ HTTP/1.1" 200 18197
+[2022-12-08 17:51:16,263] INFO django.utils.autoreload {10088} Watching for file changes with StatReloader
+[2022-12-08 18:06:12,181] INFO django.utils.autoreload {10088} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\Braniac\settings.py changed, reloading.
+[2022-12-08 18:06:13,261] INFO django.utils.autoreload {12492} Watching for file changes with StatReloader
+[2022-12-08 19:08:49,361] INFO django.utils.autoreload {8344} Watching for file changes with StatReloader
+[2022-12-08 19:11:09,071] INFO django.utils.autoreload {8344} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\mainapp\forms.py changed, reloading.
+[2022-12-08 19:11:10,380] INFO django.utils.autoreload {7060} Watching for file changes with StatReloader
+[2022-12-08 19:11:17,318] INFO django.server {4088} "GET / HTTP/1.1" 302 0
+[2022-12-08 19:11:17,458] INFO django.server {4088} "GET /mainapp/ HTTP/1.1" 200 22610
+[2022-12-08 19:11:17,566] INFO django.server {4088} "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+[2022-12-08 19:11:17,569] INFO django.server {3824} "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+[2022-12-08 19:11:18,156] INFO django.server {3824} "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+[2022-12-08 19:11:19,214] ERROR django.request {3824} Internal Server Error: /mainapp/contacts/
+Traceback (most recent call last):
+  File "E:\Geek_Brains\2.1.Django\project\gb_django\venv\lib\site-packages\django\template\defaulttags.py", line 1037, in find_library
+    return parser.libraries[name]
+KeyError: 'email_to_link'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Geek_Brains\2.1.Django\project\gb_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\Geek_Brains\2.1.Django\project\gb_django\venv\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    response = response.render()
+  File "E:\Geek_Brains\2.1.Django\project\gb_django\venv\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "E:\Geek_Brains\2.1.Django\project\gb_django\venv\lib\site-packages\django\template\response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "E:\Geek_Brains\2.1.Django\project\gb_django\venv\lib\site-packages\django\template\response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "E:\Geek_Brains\2.1.Django\project\gb_django\venv\lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "E:\Geek_Brains\2.1.Django\project\gb_django\venv\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "E:\Geek_Brains\2.1.Django\project\gb_django\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "E:\Geek_Brains\2.1.Django\project\gb_django\venv\lib\site-packages\django\template\engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "E:\Geek_Brains\2.1.Django\project\gb_django\venv\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "E:\Geek_Brains\2.1.Django\project\gb_django\venv\lib\site-packages\django\template\base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "E:\Geek_Brains\2.1.Django\project\gb_django\venv\lib\site-packages\django\template\base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "E:\Geek_Brains\2.1.Django\project\gb_django\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "E:\Geek_Brains\2.1.Django\project\gb_django\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "E:\Geek_Brains\2.1.Django\project\gb_django\venv\lib\site-packages\django\template\loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+  File "E:\Geek_Brains\2.1.Django\project\gb_django\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "E:\Geek_Brains\2.1.Django\project\gb_django\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "E:\Geek_Brains\2.1.Django\project\gb_django\venv\lib\site-packages\django\template\loader_tags.py", line 216, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "E:\Geek_Brains\2.1.Django\project\gb_django\venv\lib\site-packages\django\template\base.py", line 478, in parse
+    raise self.error(token, e)
+  File "E:\Geek_Brains\2.1.Django\project\gb_django\venv\lib\site-packages\django\template\base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "E:\Geek_Brains\2.1.Django\project\gb_django\venv\lib\site-packages\django\template\defaulttags.py", line 1094, in load
+    lib = find_library(parser, name)
+  File "E:\Geek_Brains\2.1.Django\project\gb_django\venv\lib\site-packages\django\template\defaulttags.py", line 1041, in find_library
+    name, "\n".join(sorted(parser.libraries)),
+django.template.exceptions.TemplateSyntaxError: 'email_to_link' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+crispy_forms_field
+crispy_forms_filters
+crispy_forms_tags
+crispy_forms_utils
+i18n
+l10n
+log
+markdownify
+pattern_filters
+static
+tz
+[2022-12-08 19:11:19,254] ERROR django.server {3824} "GET /mainapp/contacts/ HTTP/1.1" 500 188696
+[2022-12-08 19:12:54,438] INFO django.server {3824} "GET /mainapp/contacts/ HTTP/1.1" 200 22964
+[2022-12-08 19:13:01,224] ERROR django.request {3824} Internal Server Error: /mainapp/contacts/
+Traceback (most recent call last):
+  File "E:\Geek_Brains\2.1.Django\project\gb_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\Geek_Brains\2.1.Django\project\gb_django\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Geek_Brains\2.1.Django\project\gb_django\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\Geek_Brains\2.1.Django\project\gb_django\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\mainapp\views.py", line 163, in post
+    cache_lock_flag = cache.get(
+AttributeError: module 'celery.backends.cache' has no attribute 'get'
+[2022-12-08 19:13:01,276] ERROR django.server {3824} "POST /mainapp/contacts/ HTTP/1.1" 500 89561
+[2022-12-08 19:13:49,252] INFO django.utils.autoreload {7060} E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\mainapp\views.py changed, reloading.
+[2022-12-08 19:13:51,024] INFO django.utils.autoreload {3024} Watching for file changes with StatReloader
+[2022-12-08 19:13:51,707] ERROR django.request {13116} Internal Server Error: /mainapp/contacts/
+Traceback (most recent call last):
+  File "E:\Geek_Brains\2.1.Django\project\gb_django\venv\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "E:\Geek_Brains\2.1.Django\project\gb_django\venv\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Geek_Brains\2.1.Django\project\gb_django\venv\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\Geek_Brains\2.1.Django\project\gb_django\venv\lib\site-packages\django\views\generic\base.py", line 98, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\Geek_Brains\2.1.Django\project\gb_django\Braniac\mainapp\views.py", line 163, in post
+    cache_lock_flag = cache.get(
+AttributeError: module 'django.contrib.sessions.backends.cache' has no attribute 'get'
+[2022-12-08 19:13:51,775] ERROR django.server {13116} "POST /mainapp/contacts/ HTTP/1.1" 500 89629
