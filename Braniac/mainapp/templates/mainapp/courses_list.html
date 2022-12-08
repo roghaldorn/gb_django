@@ -1,0 +1,32 @@
+﻿{% extends 'base.html' %}
+{% load static markdownify crispy_forms_tags cache %}
+{% block content %}
+<div class="row justify-content-center mt-3">
+
+    {% cache 300 course %}
+    {% for course in courses_db %}
+        <div class="card col-sm-12 col-md-6 col-lg-4 border-0">
+            <a href="{% url 'mainapp:courses_detail' pk=course.pk %}">
+                <img src="/static/{{ course.image_path }}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center">{{course.title}}</h5>
+                </div>
+            </a>
+        </div>
+    {% endfor %}
+    {% endcache %}
+
+</div>
+<div class="row justify-content-center align-items-center mt-3 mb-n3">
+    <nav aria-label="Page navigation example">
+        <ul class="pagination">
+            <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+    </nav>
+</div>
+</html>
+{% endblock content %}
